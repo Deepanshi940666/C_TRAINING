@@ -2,12 +2,20 @@
 
 int main()
 {
-    int a[5] = {1, 2, 3, 2, 1};
+    char a[50] ;
+    int i;
+    printf("Enter a name:");
+    scanf("%s",&a);
+    for(i=0;a[i]!='\0';i++)
+    {
+        continue;
+    }
+    int n=i;
     int iscorrect = 1;
 
-    for (int i = 0; i < 5/2; i++)
+    for (i = 0; i < n/2; i++)
     {
-        if (a[i]!=a[4-i])   //5-1-i
+        if (a[i]!=a[n-1-i])   //5-1-i
          iscorrect=0;
     }
     if (iscorrect==1){
