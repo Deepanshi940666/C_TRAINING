@@ -6,11 +6,11 @@ int main()
     char str[] = "Hello";
     int freq[256]={0};
     int ln = strlen(str);
-    for (int i = 0; i <= ln ; i++)   //for(int i=0;i<ln;i++){
+    for (int i = 0; i <= ln ; i++) 
     {
         freq[str[i]]++;
     }
-        for (int i = 0; i <256 ; i++) // for(int j=0;j<i;j++){
+        for (int i = 0; i <256 ; i++) 
         {
             if (freq[i]>0)
             {
