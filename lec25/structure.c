@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-struct address
+ struct address
 {
     int pincode;
 };
